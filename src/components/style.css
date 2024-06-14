@@ -1,0 +1,206 @@
+/* RESET CSS */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Button Generator */
+/* https://www.bestcssbuttongenerator.com/#/18 */
+
+button {
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+button:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+
+button:active {
+	position:relative;
+	top:1px;
+}
+
+/* Input Generator */
+/* https://www.cssportal.com/css-input-generator/ */
+
+input, textarea {
+	padding: 5px 10px;
+	outline: none;
+	background: #FFFFFF;
+	color: #D02718;
+	border: 1px solid #D02718;
+	border-radius: 10px;
+	box-shadow: 3px 4px 0px 0px #8A2A21;
+	transition: .3s ease;
+    max-width: 100%;
+    align-items: center;
+}
+
+input:focus, textarea:focus {
+	background: #B6B6B6;
+	border: 1px solid #8A2A21;
+	border-radius: 10px;
+}
+
+input::placeholder, textarea::placeholder {
+	color: #FFBABA;
+}
+
+/* Table Generator */
+/* https://www.cssportal.com/html-table-generator/ */
+
+table {
+    width: 80%;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #8A2A21;
+    border-style: solid;
+    color: #D02718;
+  }
+  
+  table td, table th {
+    border-width: 2px;
+    border-color: #8A2A21;
+    border-style: solid;
+    padding: 5px;
+  }
+  
+  table thead {
+    background-color: #B6B6B6;
+  }
+  
+
+/* DEBUT DU CSS*/
+
+html {
+    font-size: 17px;
+    color:#D02718;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.5em;
+    margin:5px auto 30px auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.firstSection {
+    display: flex;
+    flex-direction: row;
+}
+
+.firstSection div {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.firstSection .divFirstSection:first-child {
+    width: 30%;
+}
+
+.firstSection .divFirstSection:last-child {
+    width: 70%;
+}
+
+.firstSection form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.firstSection form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.firstSection form button {
+    margin: 5px auto;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button {
+    font-size: 1.1em;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+table {
+    margin:auto;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.secondSection h2 {
+    margin-top: 15px;
+}
